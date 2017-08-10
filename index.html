@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Act_19</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<script
+  	src="https://code.jquery.com/jquery-3.2.1.min.js"
+  	integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  	crossorigin="anonymous"></script>
+
+	<link href="https://fonts.googleapis.com/css?family=Raleway:400,600,400i" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+ 
+	
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-6">
+				<div id="map"></div>
+			</div>
+			<div class="col-md-6 eleccion">
+
+				<h2>Elige tu ciudad</h2>
+				<select class="form-control" id="city">
+
+					<option value="stgo">Santiago</option>
+					<option value="arica">Arica</option>
+					<option value="chiloe">Chiloe</option>
+					
+				</select>
+				<div class="clima">
+					<div id="resumen"></div>
+					<img class="img-responsive" src="">
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	<script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBT0QIHB1cKyzLoQduBpD6nfvpBdWkodB8&callback=initMap">
+    </script>
+
+    <script type="text/javascript" src="codigo.js"></script>
+</body>
+</html>
